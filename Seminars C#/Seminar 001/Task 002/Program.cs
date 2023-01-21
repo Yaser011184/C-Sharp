@@ -9,15 +9,15 @@ Console.WriteLine("Введите второе число");
 string numderStr2 = Console.ReadLine();
 int b = Convert.ToInt32(numderStr2);
 
-int c = a / b ;
-int d = b / a ;
+int c = a / b;
+int d = b / a;
 
-if ( c == b) 
+if (c == b)
 {
     Console.WriteLine("Число является квадратом");
 }
-else 
+else
 {
-   Console.WriteLine("Число не является квадратом"); 
+    Console.WriteLine("Число не является квадратом");
 }
 
