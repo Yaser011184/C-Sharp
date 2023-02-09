@@ -57,7 +57,7 @@ void PrintMatrix(int[,] matrix)
 }
 
  void ShowNumber(int[,] matrix, int num1, int num2)
- {
+ { 
     if (num1 > matrix.GetLength(0) || num2 > matrix.GetLength(1))
         {
             Console.WriteLine("Такого элемента нет");
